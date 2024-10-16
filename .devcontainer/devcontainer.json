@@ -9,6 +9,9 @@
     "--env-file",
     ".env"
   ],
+  "features": {
+    "git": {}
+  },
   "customizations": {
     "vscode": {
       "extensions": [
