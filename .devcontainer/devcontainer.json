@@ -10,7 +10,8 @@
     ".env"
   ],
   "features": {
-    "git": {}
+    "git": {},
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
   },
   "customizations": {
     "vscode": {
