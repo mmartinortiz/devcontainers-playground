@@ -5,13 +5,11 @@
     "context": "..",
     "target": "devcontainer"
   },
-  "runArgs": [
-    "--env-file",
-    ".env"
-  ],
+  "runArgs": ["--env-file", ".env"],
   "features": {
     "git": {},
-    "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {}
+    "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},
+    "ghcr.io/gvatsal60/dev-container-features/pre-commit:1": {}
   },
   "customizations": {
     "vscode": {
