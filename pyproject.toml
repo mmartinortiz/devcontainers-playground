@@ -1,0 +1,19 @@
+[project]
+name = "pyfoo-api"
+version = "1.0.0"
+description = ""
+dependencies = ["fastapi", "uvicorn"]
+
+[project.optional-dependencies]
+dev = ["ruff"]
+test = ["pytest", "pytest-cov", "httpx"]
+
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel>=0.30"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+addopts = ["--color=yes", "-ra", "--cov=app", "--cov-report=term-missing"]
+testpaths = ["tests"]
+pythonpath = ["app"]
