@@ -1,5 +1,17 @@
 # Devcontainers playground
 
+## Getting started
+
+Before opening the project with VS Code, create a `.env` file with the following content:
+
+```bash
+SECRET=MySecret
+```
+
+The content of the `SECRET` variable is not really important, but it is used to illustrate how to pass environment variables to the container.
+
+## Running tests
+
 A playground to learn and experiment with [devcontainers](https://containers.dev/).
 
 ```bash
