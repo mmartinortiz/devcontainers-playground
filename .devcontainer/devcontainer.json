@@ -11,6 +11,7 @@
     "ghcr.io/meaningful-ooo/devcontainer-features/fish:1": {},
     "ghcr.io/gvatsal60/dev-container-features/pre-commit:1": {}
   },
+  "postStartCommand": "pre-commit install --install-hooks",
   "customizations": {
     "vscode": {
       "extensions": [
