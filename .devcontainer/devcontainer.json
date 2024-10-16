@@ -22,7 +22,12 @@
         "DavidAnson.vscode-markdownlint",
         "ms-azuretools.vscode-docker",
         "yzhang.markdown-all-in-one"
-      ]
+      ],
+      "settings": {
+        "python.testing.unittestEnabled": false,
+        "python.testing.pytestEnabled": true,
+        "python.testing.pytestArgs": ["."]
+      }
     }
   }
 }
